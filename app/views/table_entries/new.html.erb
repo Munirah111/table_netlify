@@ -1,0 +1,11 @@
+<% content_for :title, "New table entry" %>
+
+<h1>New table entry</h1>
+
+<%= render "form", table_entry: @table_entry %>
+
+<br>
+
+<div>
+  <%= link_to "Back to table entries", table_entries_path %>
+</div>
